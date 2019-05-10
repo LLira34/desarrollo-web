@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+header, .main, footer {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+header nav {
+    background: #4CAF50;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+/* Content */
+
+.main .articles {
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.main .articles article {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* About */
+
+.column-author {
+    flex: 40%;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.img-author {
+    align-self: auto;
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+/* Table */
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    text-align: center;
+    color: white;
+}
+
+#table tbody {
+    text-align: justify;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
